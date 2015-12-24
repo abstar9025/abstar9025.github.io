@@ -1,0 +1,111 @@
+* {
+    font-family: Microsoft JhengHei;
+}
+
+body {
+    background-image: url(images/colored-pencil-pattern1144.png);
+    background-attachment: fixed;
+}
+
+.title {
+    text-align: center;
+    height: 200px;
+    background-image: url(images/stylish-floral-pattern-1988.png);
+    background-repeat: repeat;
+}
+
+h1 {
+    color: #E08989;
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+}
+
+.nav {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.nav .profile {
+    width: 200px;
+    height: 100px;
+    background-color: #2E9A7B;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+}
+
+.nav .profile:hover {
+    background-color: #51CCB5;
+}
+
+.nav .experience {
+    width: 200px;
+    height: 100px;
+    background-color: #2E9A7B;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+}
+
+.nav .experience:hover {
+    background-color: #51CCB5;
+}
+
+.nav .autobiography {
+    width: 200px;
+    height: 100px;
+    background-color: #2E9A7B;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+}
+
+.nav .autobiography:hover {
+    background-color: #51CCB5;
+}
+
+.nav a {
+    position: relative;
+    top: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav ul:hover {
+    color: #51CCB5;
+}
+
+.main {
+    width: 600px;
+    clear: both;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+.main h2 {
+    font-size: 30px;
+    background-color: #51CCB5;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #FFF;
+}
+
+#autobiography a {
+    text-decoration: none;
+}
+
+.main p {
+    padding: 10px;
+}
+
+.main li {
+    padding-left: 10px;
+    padding-right: 10px;
+}

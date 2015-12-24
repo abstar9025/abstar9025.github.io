@@ -1,3 +1,7 @@
+* {
+    font-family:
+}
+
 .menu {
     max-width: 800px;
     background-color: #827B7B;
@@ -8,12 +12,11 @@
 
 .item {
     max-width: 150px;
-    height: 300px;
     padding: 10px;
     margin: 20px;
-    background-color: #827B7B;
+    background-color: #A6A2A2;
     position: absolute;
-    top: 20px;
+    top: 25px;
     left: -20px;
 }
 
@@ -35,4 +38,9 @@ li a {
     position: absolute;
     top: 380px;
     left: 280px;
+}
+
+.iteml li {
+    margin: 0;
+    height: 200px;
 }

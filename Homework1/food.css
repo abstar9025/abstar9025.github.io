@@ -1,0 +1,44 @@
+* {
+    font-family: Microsoft JhengHei;
+}
+
+.title {
+    text-align: center;
+    height: 200px;
+    background-image: url(images/stylish-floral-pattern-1988.png);
+    background-repeat: repeat;
+}
+
+h1 {
+    color: #E08989;
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+}
+
+h2 {
+    background-color: #E08989;
+    font-size: 35px;
+    padding: 8px;
+}
+
+.all {
+    background-image: url(images/pink-and-mint-green-polka-dot-2334.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.main {
+    width: 800px;
+    margin: 0 auto;
+    background: #FFF;
+}
+
+.main p {
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}

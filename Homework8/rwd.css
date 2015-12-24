@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    background-image: url(images/abstract-triangle-pattern-1479.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+[class^="col-"] {
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    background-color: #564D4D;
+}
+
+.nav .container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav .logo {
+    float: left;
+}
+
+.nav a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav .pcmenu li {
+    float: left;
+    display: inline;
+    padding-left: 35px;
+    font-size: 20px;
+    line-height: 80px;
+}
+
+.nav a:hover {
+    color: #F06D6D;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.nav .rwdmenu {
+    display: none;
+}
+
+.jumbotron {
+    width: 850px;
+    height: 300px;
+    position: relative;
+    top: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 2px solid 000000;
+}
+
+.row {
+    clear: both;
+}
+
+@media screen and (min-width: 801px) {
+    .row {
+        text-align: center;
+    }
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        width: 75%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px) {
+    .jumbotron {
+        width: 80%;
+    }
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        position: relative;
+        min-height: 60px;
+    }
+    .nav ul {
+        width: 100%;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .nav .pcmenu li {
+        display: none;
+        margin: 0;
+    }
+    .hamburger-menu {
+        background: none;
+        border: none;
+        display: inline-block;
+        position: relative;
+        top: 30px;
+        float: right;
+    }
+    .hamburger-menu .icon-bar {
+        background-color: #FFF;
+        display: block;
+        height: 4px;
+        margin: 0 auto 4px;
+        width: 30px;
+    }
+    .jumbotron {
+        width: 80%;
+    }
+    .col-sm-1 {
+        width: 8.33%;
+    }
+    .col-sm-2 {
+        width: 16.66%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-4 {
+        width: 33.33%;
+    }
+    .col-sm-5 {
+        width: 41.66%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-7 {
+        width: 58.33%;
+    }
+    .col-sm-8 {
+        width: 66.66%;
+    }
+    .col-sm-9 {
+        width: 75%;
+    }
+    .col-sm-10 {
+        width: 83.33%;
+    }
+    .col-sm-11 {
+        width: 91.66%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+.retune {
+    font-family: 微軟正黑體;
+    font-size: 20px;
+}
+
+.retune a {
+    text-decoration: none;
+    color: #3B7D68;
+}

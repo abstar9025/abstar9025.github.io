@@ -1,0 +1,105 @@
+.nav {
+    height: 150px;
+    background-color: #0D3140;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+}
+
+.fa-star {
+    color: yellow;
+}
+
+.pull-left {
+    font-size: 30px;
+}
+
+.pull-right {
+    font-size: 15px;
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #51BF97;
+}
+
+hr.star-primary {
+    border-color: #2c3e50;
+}
+
+hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+.main {
+    background-color: #51BF97;
+    height: 600px;
+}
+
+.main {
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.main .main1 {
+    font-size: 50px;
+}
+
+.main .main2 {
+    font-size: 30px;
+}
+
+.Portfolio h1 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: #0D3140;
+}
+
+.retune {
+    text-align: center;
+    font-family: 微軟正黑體;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.retune a:hover {
+    text-decoration: none;
+}
