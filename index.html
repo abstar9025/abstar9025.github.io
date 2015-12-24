@@ -3,17 +3,63 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Good Life!</title>
 </head>
 
 <body>
-    <img src="images/Welcome-Banner.jpg" alt="">
+    <div class="nav">
+        <h1>Welcome</h1>
+    </div>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Merry Christmas!</h1>
+        </div>
+    </div>
     <br>
-    <ul type="square">
-        <li><a href="Homework1/food.html">Homework1 - 我的小食袋</a></li>
-        <li><a href="Homework2/resume.html">Homework2 - 個人履歷</a></li>
-        <li><a href="Homework3/menu.html">Homework3 - MENU選單</a></li>
-    </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="Homework1/food.html" onMouseOver=document.food.src="images/foodhover.jpg" onMouseOut=document.food.src="images/food.jpg">
+                        <img name=food src="images/food.jpg" border=0></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="Homework2/resume.html" onMouseOver=document.resume.src="images/resumehover.jpg" onMouseOut=document.resume.src="images/resume.jpg">
+                        <img name=resume src="images/resume.jpg" border=0></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="Homework3/menu.html" onMouseOver=document.menu.src="images/menuhover.jpg" onMouseOut=document.menu.src="images/menu.jpg">
+                        <img name=menu src="images/menu.jpg" border=0></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="Homework6/ThreeColumn.html" onMouseOver=document.three.src="images/threehover.jpg" onMouseOut=document.three.src="images/three.jpg">
+                        <img name=three src="images/three.jpg" border=0></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="Homework7/freelancer.html" onMouseOver=document.freelancer.src="images/freelancerhover.jpg" onMouseOut=document.freelancer.src="images/freelancer.jpg">
+                        <img name=freelancer src="images/freelancer.jpg" border=0></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="Homework8/rwd.html" onMouseOver=document.rwd.src="images/rwdhover.jpg" onMouseOut=document.rwd.src="images/rwd.jpg">
+                        <img name=rwd src="images/rwd.jpg" border=0></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
 </body>
 
 </html>
